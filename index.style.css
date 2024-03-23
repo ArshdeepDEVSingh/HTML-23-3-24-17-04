@@ -1,0 +1,185 @@
+/* GLOBAL PROPERTIES */
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: darkgray;
+    margin: 0;
+}
+
+/* Main container styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #dddddd;
+}
+/* Article styles */
+article {
+    padding: 20px;
+}
+
+article h1 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+/* Footer styles (you can add your own styles here) */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dddddd;
+    border-top: 2px solid #cccccc;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+.infoque {
+    background-color: rgb(89, 81, 126);
+    border-radius: 50%;
+    border-color: black;
+}
+.partition {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dddddd;
+    border-top: 2px solid #cccccc;
+    text-align: center;
+}
+
+
+
+/* Company tab styles */
+.company-logo{
+    height: 50px;
+    width: 50px;
+}
+.company-tab h1 {
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+/* Left side styles */
+.left-side {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: #333333;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.search-bar {
+    padding: 8px 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.lang-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.lang-drawer {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.lang-drawer a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    padding: 5px 0;
+}
+
+.lang-drawer.show {
+    display: block;
+}
+
+/* Right side styles */
+.right-side button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.right-side button:hover {
+    background-color: #45a049;
+}
+
+
+/* Local properties */
+.brandnav {
+    background-color: greenyellow;
+    color: rgb(90, 90, 90);
+}
+.tn-a0, .SP0, .sip, aside, article, footer {
+    margin: 20px;
+    padding-left: 20px;
+}
+.topnav {
+    background-color: greenyellow;
+    padding: 10px;
+}
+.topnav a {
+    background-color: aquamarine;
+    color: rgb(90, 90, 90);
+    padding-left: 50px;
+}
+.SP0 {
+    padding: 20px;
+}
+.sip {
+    background-image: url('/sources/bgi1.png');
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.sip1l, .sip2l, .sip3l {
+    float: left;
+    padding-right: 20px;
+}
+.sip1r, .sip2r, .sip3r {
+    float: right;
+    padding-left: 20px;
+}
+.sip1l, .sip2r, .sip3l {
+    border: 64px;
+    border-color: black;
+    border-radius: 50%;
+}
+.content {
+    padding: 20px;
+}
